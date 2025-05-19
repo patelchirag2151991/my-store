@@ -1,0 +1,27 @@
+.home_header {
+  justify-content: space-between;
+}
+.home_header h2 {
+  font-size: 26px;
+}
+.home {
+  color: rgb(14, 20, 36);
+  align-content: center;
+}
+.hero_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 550px;
+  background-image: url("src/assets/home_bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  padding: 0px 60px;
+}
+
+@media (max-width: 768px) {
+  .hero_section {
+    background-image: url("src/assets/home_bg.jpeg");
+  }
+}

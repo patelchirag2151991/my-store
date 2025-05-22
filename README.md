@@ -32,6 +32,7 @@ The Application Runs on localhost:5173
 **Application design**
 
 **Components**
+
 Home Component : This Component displays a home page title with navigation bar(Home, Products). This is the defualt page display when user launches the application
 
 ProductLis Component : This Component displays a list of Products. This Component gets the data from a api(https://fakestoreapi.com/products)
